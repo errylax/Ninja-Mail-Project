@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background: url("https://i.ibb.co/VJ2cLDN/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.btn-green{
+    color: white;
+    background-color: #4BA87D;
+    border: 3px solid #4BA87D;
+}
+.btn-white{
+    color: #4BA87D;
+    background-color: #fff;
+    border: 3px solid #4BA87D;
+}
+
+h1{
+    font-family: 'Playfair';
+}
+
+/* navbar */
+nav{
+    max-width: 1500px;
+    margin: 0 auto 4rem auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+    color: white;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    height: auto;
+    z-index: 2;
+}
+nav img{
+    width: 20%;
+    padding-top: 1rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+ul li a{
+    margin-left: 1rem;
+    border-bottom: 5px solid #4BA87D;
+    padding: .5rem;
+    font-size: large;
+    color: black;
+}
+/* hero */
+main #hero{
+    max-width: 1100px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+main #hero .hero-left{
+    width: 400px;
+    position: absolute;
+    top: 2rem ;
+    left: 3rem;
+    z-index: 1;
+}
+main #hero .hero-left h1{
+    font-family: 'Playfair';
+    font-weight: bolder;
+    font-size: 3.2rem;
+}
+main #hero .hero-left p{
+    margin: 2rem 0;
+    font-weight: 500;
+    line-height: 1.4em;
+    font-size: 1.1rem;
+    width: 420px;
+    padding-bottom: 1rem;
+}
+main #hero .hero-left a{
+    margin-right: 2rem;
+    padding: 1rem 1.8rem;
+    font-size: larger;
+}
+main #hero .hero-right{
+    width: 680px;
+    height: 380px;
+    position: absolute;
+    background: url("https://i.ibb.co/BZ0Tr35/hero-photo.png");
+    background-repeat: no-repeat;
+    right: 4rem;
+}
+/* video */
+#video{
+    background: url("https://i.ibb.co/swR1nQj/VIDEO-image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 200px;
+    margin: auto;
+    width: 944px;
+    height: 531px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+#video h1{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+#video a{
+    color: #4BA87D;
+    background-color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 1.2rem 2rem;
+}
+/* sec */
+#sec{
+    position: relative;
+    top: 280px;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.thumb{
+    background-color: #fff;
+    width: 310px;
+    line-height: 1.5em;
+    font-size: 1rem;
+    box-shadow: 5px 5px 10px rgba(25, 25, 25, .3);
+}
+.thumb img{
+    width: 100%;
+}
+.thumb p{
+    padding: 1rem 2rem; 
+    font-weight: 500;
+}
+.thumb a{
+    color: #4BA87D;
+    display: inline-block;
+    margin-left: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.thumb1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.thumb2{
+    position: absolute;
+    top: 80px;
+    left: 370px;
+}
+.txt{
+    position: absolute;
+    width: 350px;
+    top: 150px;
+    left: 740px;
+}
+.txt h1{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.txt p{
+    width: 90%;
+    font-size: large;
+    line-height: 1.3em;
+    font-weight: 500;
+}
+/* cases */
+#cases{
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    top: 1000px;
+    margin: auto;
+}
+.case{
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+.case h1{
+    font-family: 'Raleway';
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+.case1{
+    background: url("https://i.ibb.co/xFQ1WtQ/photo-2.png");
+}
+.case2{
+    background: url("https://i.ibb.co/qrfBFmz/photo-3.png");
+}
+.case3{
+    background: url("https://i.ibb.co/tYgjkXn/photo-4.png");
+}
+
+/* join */
+#join{
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+    top: 1020px;
+}
+#join h1{
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+#join input{
+    padding: 1.3rem;
+    width: 46%;
+    margin-left: 7rem;
+    font-size: larger;
+    color: black;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: 2px solid silver;
+}
+#join input::placeholder{
+    color: black;
+    font-size: larger;
+} 
+#join a{
+    padding: 1.1rem 2rem;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+#join p{
+    color: #4BA87D;
+    font-size: 1.3rem;
+    margin-left: 8rem;
+    padding-top: 1rem;
+    font-weight: 500;
+}
+/* logos */
+#logos{
+    position: relative;
+    max-width: 1100px;
+    margin: auto;
+    top: 1050px;
+}
+#logos h1{
+    width: 600px;
+    margin: auto;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-bottom: 5rem;
+    line-height: 1;
+}
+#logos .container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+}
+/* plan */
+#plan{
+    width: 100%;
+    height: 380px;
+    background-color: #4BA87D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1100px;
+}
+#plan h1{
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+#plan a{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 1.3rem 2rem;
+}
+/* limks */
+#links{
+    max-width: 1100px;
+    margin: auto;
+    position: relative;
+    top: 1180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid silver;
+    padding-bottom: 3rem;
+}
+#links .link{
+    display: flex;
+}
+#links .link ul{
+    margin-right: 3rem;
+    font-weight: 600;
+    font-size: larger;
+    line-height: 1.7em;
+}
+/* footer */
+footer{
+    position: relative;
+    max-width: 980px;
+    margin: auto;
+    top: 1180px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    padding: 2rem;
+}
+footer div span{
+    margin-right: 2rem;
+}

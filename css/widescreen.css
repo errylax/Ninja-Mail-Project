@@ -1,0 +1,69 @@
+nav{
+    width: 100%;
+    margin: 0 0 4rem 0;
+}
+ul li a{
+    padding: .2rem;
+    font-size: medium;
+}
+/* hero */
+main #hero{
+    max-width: 980px;
+}
+main #hero .hero-left{
+    left: 2rem;
+}
+main #hero .hero-right{
+    right: 2rem;
+    width: 600px;
+}
+/* video */
+#video{
+    top: 150px;
+    width: 900px;
+}
+/* sec */
+#sec{
+    top: 200px;
+}
+.thumb{
+    width: 280px;
+}
+.thumb1{
+    left: 20px;
+}
+.thumb2{
+    left: 320px;
+}
+.txt{
+    left: 630px;
+}
+/* cases */
+#cases{
+    top: 950px ;
+    gap: 1rem;
+    max-width: 940px;
+    padding: 0 2rem;
+}
+/* join */
+#join{
+    top: 980px;
+}
+/* logos */
+#logos{
+    max-width: 980px;
+    top: 1000px;
+}
+/* plan */
+#plan{
+    top: 1060px;
+}
+/* limks */
+#links{
+    max-width: 980px;
+    top: 1120px;
+}
+/* footer */
+footer{
+    top: 1120px;
+}
