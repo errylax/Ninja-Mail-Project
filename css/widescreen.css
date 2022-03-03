@@ -1,69 +1,85 @@
 nav{
-    width: 100%;
-    margin: 0 0 4rem 0;
+    padding: .1rem .3rem;
 }
 ul li a{
-    padding: .2rem;
+    padding: .1rem;
     font-size: medium;
 }
+nav img{
+    width: 25%;
+    padding-top: 1rem;
+}
 /* hero */
-main #hero{
-    max-width: 980px;
+#hero{
+    width: 100%;
 }
-main #hero .hero-left{
-    left: 2rem;
+#hero .hero-left a{
+    font-size: medium;
 }
-main #hero .hero-right{
-    right: 2rem;
+#hero .hero-right{
     width: 600px;
+    right: 1rem;
 }
 /* video */
 #video{
-    top: 150px;
-    width: 900px;
+    width: 850px;
+    margin: auto;
+}
+#video h1{
+    font-size: 3.5rem;
 }
 /* sec */
-#sec{
-    top: 200px;
+#sec .container{
+    max-width: 980px;
+    gap: .5rem;
+    padding: 1.5rem;
 }
 .thumb{
-    width: 280px;
-}
-.thumb1{
-    left: 20px;
-}
-.thumb2{
-    left: 320px;
+    width: 250px;
 }
 .txt{
-    left: 630px;
+    width: 250px;
+}
+.txt h1{
+    font-size: 1.8rem;
 }
 /* cases */
 #cases{
-    top: 950px ;
+    max-width: 980px;
     gap: 1rem;
-    max-width: 940px;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
-/* join */
-#join{
-    top: 980px;
+.case h1{
+    font-size: 1.5rem;
+}
+.case{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 /* logos */
 #logos{
     max-width: 980px;
-    top: 1000px;
 }
-/* plan */
-#plan{
-    top: 1060px;
+#logos h1{
+    width: 60%;
 }
-/* limks */
+#logos .container{
+    padding: 0 2rem;
+    gap: .8rem;
+    margin: auto;
+}
+/* links */
 #links{
-    max-width: 980px;
-    top: 1120px;
+    width: 100%;
 }
-/* footer */
-footer{
-    top: 1120px;
+#links .link ul{
+    margin-right: 1.5rem;
+    font-size: large;
 }
+
+
+
+
+
+
