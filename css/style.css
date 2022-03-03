@@ -35,21 +35,18 @@ h1{
 
 /* navbar */
 nav{
-    max-width: 1500px;
-    margin: 0 auto 4rem auto;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0 3rem;
     color: white;
     position: sticky;
     top: 0;
     background-color: #fff;
-    height: auto;
+    padding: .1rem 2rem;
     z-index: 2;
 }
 nav img{
-    width: 20%;
-    padding-top: 1rem;
+    padding-top: .7rem;
 }
 nav ul{
     display: flex;
@@ -64,39 +61,37 @@ ul li a{
     color: black;
 }
 /* hero */
-main #hero{
+#hero{
     max-width: 1100px;
-    height: 500px;
-    margin: auto;
+    height: 400px;
+    margin: 4rem auto 12rem;
     display: flex;
     position: relative;
 }
-main #hero .hero-left{
+#hero .hero-left{
     width: 400px;
     position: absolute;
     top: 2rem ;
     left: 3rem;
     z-index: 1;
 }
-main #hero .hero-left h1{
+#hero .hero-left h1{
     font-family: 'Playfair';
-    font-weight: bolder;
     font-size: 3.2rem;
 }
-main #hero .hero-left p{
+#hero .hero-left p{
     margin: 2rem 0;
     font-weight: 500;
     line-height: 1.4em;
     font-size: 1.1rem;
-    width: 420px;
     padding-bottom: 1rem;
 }
-main #hero .hero-left a{
+#hero .hero-left a{
     margin-right: 2rem;
     padding: 1rem 1.8rem;
     font-size: larger;
 }
-main #hero .hero-right{
+#hero .hero-right{
     width: 680px;
     height: 380px;
     position: absolute;
@@ -110,9 +105,7 @@ main #hero .hero-right{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    top: 200px;
-    margin: auto;
+    margin:auto;
     width: 944px;
     height: 531px;
     display: flex;
@@ -120,7 +113,6 @@ main #hero .hero-right{
     justify-content: center;
     align-items: center;
     color: white;
-
 }
 #video h1{
     font-size: 4rem;
@@ -136,12 +128,16 @@ main #hero .hero-right{
 /* sec */
 #sec{
     position: relative;
-    top: 280px;
+    width: 100%;
+}
+
+#sec .container{
     max-width: 1100px;
     margin: auto;
+    height: 650px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 .thumb{
     background-color: #fff;
@@ -154,7 +150,7 @@ main #hero .hero-right{
     width: 100%;
 }
 .thumb p{
-    padding: 1rem 2rem; 
+    padding: 1rem 2rem;
     font-weight: 500;
 }
 .thumb a{
@@ -165,23 +161,19 @@ main #hero .hero-right{
     padding-bottom: 1rem;
 }
 .thumb1{
-    position: absolute;
-    top: 0;
-    left: 0;
+    margin-top: 5rem;
+    height: 430px;
 }
 .thumb2{
-    position: absolute;
-    top: 80px;
-    left: 370px;
+    margin-top: 12rem;
+    height: 450px;
 }
 .txt{
-    position: absolute;
     width: 350px;
-    top: 150px;
-    left: 740px;
+    margin-top: 16rem;
 }
 .txt h1{
-    font-size: 3rem;
+    font-size: 2.4rem;
     margin-bottom: 1.5rem;
 }
 .txt p{
@@ -198,9 +190,7 @@ main #hero .hero-right{
     gap: 2rem;
     font-weight: bold;
     color: #fff;
-    position: relative;
-    top: 1000px;
-    margin: auto;
+    margin: 10rem auto 3rem;
 }
 .case{
     height: 235px;
@@ -228,8 +218,6 @@ main #hero .hero-right{
 #join{
     max-width: 900px;
     margin: auto;
-    position: relative;
-    top: 1020px;
 }
 #join h1{
     font-size: 3rem;
@@ -249,7 +237,7 @@ main #hero .hero-right{
 #join input::placeholder{
     color: black;
     font-size: larger;
-} 
+}
 #join a{
     padding: 1.1rem 2rem;
     font-weight: bold;
@@ -264,35 +252,31 @@ main #hero .hero-right{
 }
 /* logos */
 #logos{
-    position: relative;
     max-width: 1100px;
-    margin: auto;
-    top: 1050px;
+    margin: 5rem auto;
 }
 #logos h1{
-    width: 600px;
+    width: 50%;
     margin: auto;
     font-size: 3.5rem;
     text-align: center;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
     line-height: 1;
 }
 #logos .container{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
     padding-bottom: 5rem;
 }
 /* plan */
 #plan{
     width: 100%;
-    height: 380px;
+    height: 400px;
     background-color: #4BA87D;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 1100px;
 }
 #plan h1{
     font-size: 4rem;
@@ -304,12 +288,10 @@ main #hero .hero-right{
     font-weight: bolder;
     padding: 1.3rem 2rem;
 }
-/* limks */
+/* links */
 #links{
-    max-width: 1100px;
-    margin: auto;
-    position: relative;
-    top: 1180px;
+    max-width: 1200px;
+    margin: 3rem auto 1rem;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -327,10 +309,8 @@ main #hero .hero-right{
 }
 /* footer */
 footer{
-    position: relative;
-    max-width: 980px;
+    max-width: 1200px;
     margin: auto;
-    top: 1180px;
     display: flex;
     justify-content: space-between;
     font-weight: 600;
