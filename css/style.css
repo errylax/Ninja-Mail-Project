@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 body{
+    width: 100%;
     font-family: 'Raleway', sans-serif;
     background: url("https://i.ibb.co/VJ2cLDN/bg.png");
     background-repeat: no-repeat;
@@ -97,6 +98,8 @@ ul li a{
     position: absolute;
     background: url("https://i.ibb.co/BZ0Tr35/hero-photo.png");
     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     right: 4rem;
 }
 /* video */
@@ -127,7 +130,6 @@ ul li a{
 }
 /* sec */
 #sec{
-    position: relative;
     width: 100%;
 }
 
