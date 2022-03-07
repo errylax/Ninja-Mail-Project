@@ -300,14 +300,17 @@ ul li a{
     border-bottom: 2px solid silver;
     padding-bottom: 3rem;
 }
-#links .link{
-    display: flex;
-}
 #links .link ul{
     margin-right: 3rem;
     font-weight: 600;
     font-size: larger;
     line-height: 1.7em;
+}
+#links .link{
+    display: flex;
+}
+#links .link div{
+    display: flex;
 }
 /* footer */
 footer{

@@ -150,9 +150,11 @@ nav img{
     gap: 2rem;
 }
 #links .link{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    font-size: .6rem;
+    display: flex;
+    font-size: .7rem;
+}
+#links .link div{
+    flex-direction: column;
 }
 #links .link ul{
     margin-right: 1rem;
@@ -160,7 +162,6 @@ nav img{
 #links img{
     width: 50%;
 }
-
 
 /* footer */
 footer{
