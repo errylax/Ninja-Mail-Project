@@ -31,8 +31,10 @@ nav img{
 /* sec */
 #sec .container{
     max-width: 980px;
-    gap: .5rem;
+    gap: 1rem;
     padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
 }
 .thumb{
     width: 250px;
@@ -66,12 +68,20 @@ nav img{
 }
 #logos .container{
     padding: 0 2rem;
-    gap: .8rem;
+    gap: 1.8rem;
     margin: auto;
+    grid-template-columns: repeat(4,1fr);
+}
+#logos img{
+    width: 70%;
 }
 /* links */
 #links{
     width: 100%;
+}
+#links .link{
+    background-color: blueviolet;
+    width: 50%;
 }
 #links .link ul{
     margin-right: 1.5rem;
