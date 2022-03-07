@@ -1,8 +1,10 @@
 body{
     font-size: 1.3em;
+    width: 100%;
 }
 /*navbar*/
 nav{
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -13,6 +15,11 @@ nav img{
     width: 40%;
     padding-top: 1.3rem;
     margin-right: 1rem;
+}
+.btn-green{
+    font-size: .9rem;
+    font-weight: lighter;
+    padding: .1rem;
 }
 
 /*hero*/
@@ -35,7 +42,7 @@ nav img{
 }
 #hero .hero-left h1{
     font-size: 3.8rem;
-    padding-left: 1rem;
+    padding-left: .5rem;
 }
 #hero .hero-left div{
     display: grid;
@@ -44,7 +51,7 @@ nav img{
 }
 #hero .hero-right{
     width: 100%;
-    right: 0rem;
+    right: 0;
     top: 3.2rem;
 }
 /* video */
@@ -74,7 +81,7 @@ nav img{
 .txt{
     width: 360px;
     margin-top: 0;
-    margin-left: 2rem;
+    margin-left: 1.1rem;
 }
 /* cases */
 #cases{
@@ -109,6 +116,7 @@ nav img{
 /*plan*/
 #plan{
     text-align: center;
+    width: 100%;
 }
 #plan h1{
     font-size: 3rem;
@@ -120,11 +128,12 @@ nav img{
 }
 #logos h1{
     width: 80%;
+    font-size: 3.5rem;
 }
 #logos .container{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     padding: 0 2rem;
     gap: 5rem;
 }
@@ -132,25 +141,26 @@ nav img{
     display: none;
 }
 #logos .container img{
-    width: 100%;
+    width: 70%;
 }
 /* links */
 #links{
-    width: 100%;
-    height: 500px;
+    max-width: 90%;
     justify-content: space-between;
+    gap: 2rem;
 }
 #links .link{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    width: 45%;
-    height: 430px;
-    font-size: medium;
-    overflow: hidden;
+    font-size: .6rem;
 }
 #links .link ul{
     margin-right: 1rem;
 }
+#links img{
+    width: 50%;
+}
+
 
 /* footer */
 footer{

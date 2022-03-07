@@ -22,7 +22,7 @@ nav img{
 }
 /* video */
 #video{
-    width: 850px;
+    width: 840px;
     margin: auto;
 }
 #video h1{
@@ -80,7 +80,6 @@ nav img{
     width: 100%;
 }
 #links .link{
-    background-color: blueviolet;
     width: 50%;
 }
 #links .link ul{
